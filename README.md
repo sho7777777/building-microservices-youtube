@@ -71,6 +71,9 @@ In this episode we learn more about the standard library and look at how we can 
 
 In this episode we start to learn about RESTFul services and reading and writing data using the JSON format.
 
+学習 curl localhost:9090 | jq でjsonフォーマットで出力できる(15:00)
+json.Marshalだと、結果をWriteしないといけないが、json.NewEncoderだとそのまま返すことができる
+
 
 ## Episode 4 - RESTful microservices
 
