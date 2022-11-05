@@ -61,6 +61,7 @@ In this episode I show you how to build the simplest service you can using the s
 
 In this episode we learn more about the standard library and look at how we can refactor last episodes example into a reusable microservice pattern.
 
+学習 signal.Notify, グレースフルシャットダウン
 
 ## Episode 3 - RESTFul microservices
 
