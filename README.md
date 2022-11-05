@@ -107,6 +107,8 @@ In this epsode we refactor our Standard library RESTful service and start to imp
 
 In this episode we will look at the Go Validator package and how it can be used to validate JSON.
 
+- vallidatorの使い方（skuのために自作）
+- Validateのテスト（超簡易版）
 
 ## Episode 7 - Documenting APIs with Swagger
 
