@@ -71,11 +71,10 @@ In this episode we learn more about the standard library and look at how we can 
 
 In this episode we start to learn about RESTFul services and reading and writing data using the JSON format.
 
-学習 curl localhost:9090 | jq でjsonフォーマットで出力できる(15:00)
-json.Marshalだと、結果をWriteしないといけないが、json.NewEncoderだとそのまま返すことができる
-（＝メモリを割り当てる必要がない(20:30)）
-リファクタリングの過程が見れるので良い
-標準ライブラリでのルーティングの実装（27:00) GinとかGorillaだともっと楽
+- curl localhost:9090 | jq でjsonフォーマットで出力できる(15:00)
+- json.Marshalだと、結果をWriteしないといけないが、json.NewEncoderだとそのまま返すことができる（＝メモリを割り当てる必要がない(20:30)）
+- リファクタリングの過程が見れるので良い
+- 標準ライブラリでのルーティングの実装（27:00) GinとかGorillaだともっと楽
 
 ## Episode 4 - RESTful microservices
 
@@ -96,6 +95,9 @@ We continue to look at how you can implement RESTFul services with the Standard 
 
 In this epsode we refactor our Standard library RESTful service and start to implement the Gorill toolkit for routing.
 
+- Gorillaのサブルーター
+- contextの使い方（値をミドルウェアからパスする）　やっとわかった, 取り出し(33:30)
+- エラーをギブアップして答え見る（34:50)
 
 ## Episode 6 - JSON Validation
 
