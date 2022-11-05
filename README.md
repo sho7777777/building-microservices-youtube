@@ -73,7 +73,9 @@ In this episode we start to learn about RESTFul services and reading and writing
 
 学習 curl localhost:9090 | jq でjsonフォーマットで出力できる(15:00)
 json.Marshalだと、結果をWriteしないといけないが、json.NewEncoderだとそのまま返すことができる
-
+（＝メモリを割り当てる必要がない(20:30)）
+リファクタリングの過程が見れるので良い
+標準ライブラリでのルーティングの実装（27:00) GinとかGorillaだともっと楽
 
 ## Episode 4 - RESTful microservices
 
