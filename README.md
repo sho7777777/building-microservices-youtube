@@ -85,6 +85,8 @@ json.Marshalだと、結果をWriteしないといけないが、json.NewEncoder
 
 We continue to look at how you can implement RESTFul services with the Standard API
 
+- idをパースするだけでコード量が多い（39:40)
+- ErrProductNotFound(44:40)
 
 ## Episode 5 - Gorilla toolkit
 
