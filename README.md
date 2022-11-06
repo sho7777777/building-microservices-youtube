@@ -118,6 +118,8 @@ In this episode we will look at the Go Validator package and how it can be used 
 
 This epsiode shows you how you can document the API we have been building over the last couple of weeks. As a bonus we will also look at how we can embed ReDoc to build a nice documentation API direct into our service.
 
+- swaggar
+- Fileサーバーとしての使い方（26:20)
 
 ## Episode 8 - Auto-generating HTTP client code from Swagger documentation
 
@@ -137,6 +139,7 @@ hope you all find the process of debugging this and finding root cause useful to
 
 In this episode we are going to take a look at CORS (Cross-Origin Resource Sharing). CORS is a security feature built into web browsers which restricts upstream requests to sites on different domains. We look at a typical example of a React website on one domain calling a back end API, see the impact of CORS and how to solve it.
 
+- Gorillaパッケージを使ったCORS対応（ミドルウェアの作成）
 
 ## Episode 10 - Serving and uploading files
 
@@ -155,6 +158,8 @@ In this episode you will learn how to upload and serve files using the Go standa
 
 In this episode you will learn how to handle multi-part form uploads. Mult-part forms used to be common place as they are the basic way that browsers would upload data to a server. This pattern has fallen out of fashion as most moder data transfer to the server is done using XHR requests. There might still be a case when you need to know this though.
 
+- ParseMultiPartFormの使い方、メモリ設定
+- MultiPartFormを使うことの欠点（28:00)
 
 ## Episode 12 - Using Gzip compression for HTTP responses
 
